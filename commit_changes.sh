@@ -1,6 +1,7 @@
 #!/bin/zsh
 
 cd `dirname "$0"`
+cd "../zsh-backup"
 
 cp $HOME/.zshrc .
 cp -R $HOME/.zsh .

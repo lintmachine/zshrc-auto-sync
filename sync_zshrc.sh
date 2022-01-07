@@ -2,4 +2,4 @@
 
 DIR_PATH=`dirname "$0"`
 
-/opt/homebrew/bin/fswatch -o $HOME/.zshrc $HOME/.zsh/ | xargs -n1 zsh $DIR_PATH/commit_changes.sh
+/usr/local/bin/fswatch -o $HOME/.zshrc $HOME/.zsh/ | xargs -n1 zsh $DIR_PATH/commit_changes.sh
